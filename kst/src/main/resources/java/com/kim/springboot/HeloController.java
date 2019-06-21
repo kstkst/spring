@@ -29,7 +29,7 @@ public class HeloController {
 	 *
 	 * @param 	mav ModelAndView
 	 *
-	 * @remark 	웹 페이지를 불러오기 위한 초기페이지 설정		[2019-06-20; 김성택] \n
+	 * @remark 	웹 페이지를 불러오기 위한 초기페이지 설정			[2019-06-20; 김성택] \n
 	 * 		   	FinaAll()를 이용해 list에 모든 데이터를 저장	[2019-06-20; 김성택] \n
 	 *
 	 */
@@ -56,7 +56,7 @@ public class HeloController {
 	 *
 	 * @param	mav ModelAndView
 	 *
-	 * @remark 	웹 페이지를 불러오기 위한 초기페이지 설정[2019-06-20; 김성택] \n
+	 * @remark 	웹 페이지를 불러오기 위한 초기페이지 설정		[2019-06-20; 김성택] \n
 	 *
 	 */
 	
@@ -109,7 +109,7 @@ public class HeloController {
 	 *
 	 * @param 	mav ModelAndView
 	 *
-	 * @remark	findBy 를 이용한 조건검색 후 출력	[2019-06-20; 김성택] \n
+	 * @remark	findBy 를 이용한 조건검색 후 출력		[2019-06-20; 김성택] \n
 	 *
 	 */
 	
@@ -242,7 +242,7 @@ public class HeloController {
 	 *
 	 * @param	mav ModelAndView
 	 *
-	 * @remark 	웹 페이지를 불러오기 위한 초기페이지 설정[2019-06-20; 김성택] \n
+	 * @remark 	웹 페이지를 불러오기 위한 초기페이지 설정	[2019-06-20; 김성택] \n
 	 *
 	 */
 	
