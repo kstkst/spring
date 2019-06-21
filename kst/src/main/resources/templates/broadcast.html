@@ -35,14 +35,14 @@ input[type="submit"],[type="reset"],[type="button"] {
         <input type="button" value="보내기" onclick="send()" / class="bbsview_box">
         
     </div>
-    
+    	
 </body>
     <script type="text/javascript">
         var textarea = document.getElementById("messageWindow");
         var webSocket = new WebSocket('ws://localhost:8080/kst/chat/broadcasting');
         var inputMessage = document.getElementById('inputMessage');
         
-
+	
   	//웹 소켓이 연결되었을 때 호출되는 이벤트
     //접속하면 messageWindow요소에 메시지에 추가
     
@@ -64,11 +64,14 @@ input[type="submit"],[type="reset"],[type="button"] {
     }
     
   	//Send 버튼을 누르면 실행되는 함수
+  	//메시지를 보내면 messageWindow요소에 추가
+  	//웹소켓으로inputMessage객체의 값을 보낸다.
+  	//textMessage객체의 값 초기화
   	
     function send() {
-        textarea.value += "나 : " + inputMessage.value + "\n";	//메시지를 보내면 messageWindow요소에 추가
-        webSocket.send(inputMessage.value);	//웹소켓으로inputMessage객체의 값을 보낸다.
-        inputMessage.value = "";	//textMessage객체의 값 초기화
+        textarea.value += "나 : " + inputMessage.value + "\n";
+        webSocket.send(inputMessage.value);
+        inputMessage.value = "";
     }
   </script>
 </html>
