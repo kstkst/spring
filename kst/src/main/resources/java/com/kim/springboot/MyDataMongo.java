@@ -32,7 +32,7 @@ public class MyDataMongo {
 	 *
 	 * @param	String name, String boardTitle, String boardContent, int pc, int laptop, int monitor
 	 *
-	 * @remark 	몽고디비에 있는데이터를 가저온다  [2019-06-20; 김성택] \n
+	 * @remark 	몽고디비에 있는데이터를 가저온다		[2019-06-20; 김성택] \n
 	 *
 	 */
 	
@@ -62,7 +62,7 @@ public class MyDataMongo {
 	 *
 	 * @param	필드의 모든데이터
 	 *
-	 * @remark 	필드의 데이터들을 집어넣거나 꺼낼때 쓰는함수이다  [2019-06-20; 김성택] \n
+	 * @remark 	필드의 데이터들을 집어넣거나 꺼낼때 쓰는함수이다 	[2019-06-20; 김성택] \n
 	 *
 	 */
 
